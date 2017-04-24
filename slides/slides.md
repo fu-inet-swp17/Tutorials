@@ -7,17 +7,17 @@ author: Martine Lenders
 ## Preparations
 \tiny
 
-For links go to [https://github.com/RIOT-OS/Tutorials](https://github.com/RIOT-OS/Tutorials)
+For links go to [https://github.com/fu-inet-swp17/Tutorials](https://github.com/fu-inet-swp17/Tutorials)
 
 **Quick Setup** (Using a Virtual Machine)
 
 * Install and set up [git](https://help.github.com/articles/set-up-git/)
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) & [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
 * Install [Vagrant](https://www.vagrantup.com/downloads.html)
-* `git clone --recursive https://github.com/RIOT-OS/Tutorials`
+* `git clone --recursive https://github.com/fu-inet-swp17/Tutorials`
 * Go to RIOT root directory: `cd Tutorials/RIOT`
-* Run the [Vagrant RIOT Setup](https://github.com/RIOT-OS/RIOT/blob/master/dist/tools/vagrant/README.md)
-* Make sure you've run `vagrant ssh` and clone the Tutorials folder again, now in your virtual machine: `git clone --recursive https://github.com/RIOT-OS/Tutorials`
+* Run the [Vagrant RIOT Setup](https://github.com/fu-inet-swp17/RIOT/blob/master/dist/tools/vagrant/README.md)
+* Make sure you've run `vagrant ssh` and clone the Tutorials folder again, now in your virtual machine: `git clone --recursive https://github.com/fu-inet-swp17/Tutorials`
 
 **Recommended Setup** (Without Using a VM)
 
@@ -30,7 +30,7 @@ For links go to [https://github.com/RIOT-OS/Tutorials](https://github.com/RIOT-O
 * [additional tweaks](https://github.com/RIOT-OS/RIOT/wiki/Board:-Samr21-xpro) necessary to work with the targeted hardware (ATSAMR21)
 * Install `netcat` with IPv6 support (if necessary)\
   `sudo apt-get install netcat-openbsd`
-* `git clone --recursive https://github.com/RIOT-OS/Tutorials`
+* `git clone --recursive https://github.com/fu-inet-swp17/Tutorials`
 * Go to the Tutorials directory: `cd Tutorials`
 
 ## Running RIOT

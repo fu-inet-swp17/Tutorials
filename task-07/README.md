@@ -6,10 +6,10 @@ This task is a little bit more advanced so don't be discouraged if things are
 a little bit harder. With the knowledge you gathered from the previous tasks
 you should be able to handle it.
 
-It uses the [example applications in the RIOT repository](https://github.com/RIOT-OS/RIOT/tree/master/examples).
+It uses the [example applications in the RIOT repository](https://github.com/fu-inet-swp17/RIOT/tree/master/examples).
 
 ## Task 7.1: Compile the `gnrc_minimal` application
-* Go to the [`gnrc_minimal` application](https://github.com/RIOT-OS/RIOT/tree/master/examples/gnrc_minimal)
+* Go to the [`gnrc_minimal` application](https://github.com/fu-inet-swp17/RIOT/tree/master/examples/gnrc_minimal)
 * Compile and run on `native`
 * Should print something like `My address is fe80::d403:24ff:fe89:2460`
 * Ping RIOT instance from Linux:
@@ -55,7 +55,7 @@ gnrc_pktbuf_release(pkt);
 2.  Use `netcat` on your host to test your application on native node.
 
 ## Task 7.3: Send your neighbor some messages again
-* Go to the [`gnrc_networking` application](https://github.com/RIOT-OS/RIOT/tree/master/examples/gnrc_networking)
+* Go to the [`gnrc_networking` application](https://github.com/fu-inet-swp17/RIOT/tree/master/examples/gnrc_networking)
 * Have a look in `udp.c` how packets are constructed and send
 * Compile, flash, and run on the board `BOARD=samr21-xpro make all flash term`
 * Type `help`

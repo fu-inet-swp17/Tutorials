@@ -2,7 +2,7 @@
 
 ## Preparations
 
-For links go to [https://github.com/RIOT-OS/Tutorials](https://github.com/RIOT-OS/Tutorials)
+For links go to [https://github.com/fu-inet-swp17/Tutorials](https://github.com/fu-inet-swp17/Tutorials)
 
 **Quick Setup using a Virtual Machine (recommended for this Tutorial)**
 
@@ -10,17 +10,17 @@ For links go to [https://github.com/RIOT-OS/Tutorials](https://github.com/RIOT-O
 * Install latest [VirtualBox](https://www.virtualbox.org/wiki/Downloads) & [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads) for **your system**
 * Install [Vagrant](https://www.vagrantup.com/downloads.html)
 * Linux, OSX:
-    * `git clone --recursive https://github.com/RIOT-OS/Tutorials`
+    * `git clone --recursive https://github.com/fu-inet-swp17/Tutorials`
 * Windows:
     * set `git config --global core.autocrlf input` before cloning
     * clone the `Tutorials` and the `RIOT` submodule as follows:
     ```Shell
-    git clone https://github.com/RIOT-OS/Tutorials
+    git clone https://github.com/fu-inet-swp17/Tutorials
     cd Tutorials
     git submodule update --init --recursive
     ```
 * In case a virtual machine is disseminated locally, adapt the path for the vagrant box `vagrant box add RIOT/ubuntu1604 <path to box>`
-* Run `vagrant up` and `vagrant ssh` afterwards. See the [Vagrant RIOT Setup](https://github.com/RIOT-OS/RIOT/blob/master/dist/tools/vagrant/README.md) for a more general explanation.
+* Run `vagrant up` and `vagrant ssh` afterwards. See the [Vagrant RIOT Setup](https://github.com/fu-inet-swp17/RIOT/blob/master/dist/tools/vagrant/README.md) for a more general explanation.
 
 **Regular Setup without using a VM (recommended for RIOT developement)**
 
@@ -38,7 +38,7 @@ For links go to [https://github.com/RIOT-OS/Tutorials](https://github.com/RIOT-O
   sudo apt-get install netcat-openbsd
   ```
 
-* `git clone --recursive https://github.com/RIOT-OS/Tutorials`
+* `git clone --recursive https://github.com/fu-inet-swp17/Tutorials`
 
 ## Tasks
 * [Task 1: Starting the RIOT](task-01/)
