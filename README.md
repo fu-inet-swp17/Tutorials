@@ -32,13 +32,13 @@ For links go to [https://github.com/fu-inet-swp17/Tutorials](https://github.com/
 * On OS X: install [Tuntap for OS X](http://tuntaposx.sourceforge.net/)
 * [additional tweaks](https://github.com/RIOT-OS/RIOT/wiki/Board:-Samr21-xpro) necessary to work with the targeted hardware (ATSAMR21)
 * Install `netcat` with IPv6 support (if necessary)
-* Go to the Tutorials directory: `cd Tutorials`
 
   ```bash
   sudo apt-get install netcat-openbsd
   ```
 
 * `git clone --recursive https://github.com/fu-inet-swp17/Tutorials`
+* Go to the Tutorials directory: `cd Tutorials`
 
 ## Tasks
 * [Task 1: Starting the RIOT](task-01/)
